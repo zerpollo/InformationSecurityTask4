@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InformationSecurityTask4", "InformationSecurityTask4\InformationSecurityTask4.csproj", "{E464AB6A-95E2-46BB-B3CF-8D18C0DE8CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E464AB6A-95E2-46BB-B3CF-8D18C0DE8CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E464AB6A-95E2-46BB-B3CF-8D18C0DE8CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E464AB6A-95E2-46BB-B3CF-8D18C0DE8CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E464AB6A-95E2-46BB-B3CF-8D18C0DE8CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEB75E3E-DD29-4ABE-B23A-71DE873048A8}
+	EndGlobalSection
+EndGlobal
