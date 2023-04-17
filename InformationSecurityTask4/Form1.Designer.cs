@@ -97,6 +97,7 @@
             this.ExportPrivateKeyBtn.TabIndex = 15;
             this.ExportPrivateKeyBtn.Text = "Export private key";
             this.ExportPrivateKeyBtn.UseVisualStyleBackColor = true;
+            this.ExportPrivateKeyBtn.Click += new System.EventHandler(this.ExportPrivateKeyBtn_Click);
             // 
             // ExportPublicKeyBtn
             // 
@@ -106,6 +107,7 @@
             this.ExportPublicKeyBtn.TabIndex = 14;
             this.ExportPublicKeyBtn.Text = "Export public key";
             this.ExportPublicKeyBtn.UseVisualStyleBackColor = true;
+            this.ExportPublicKeyBtn.Click += new System.EventHandler(this.ExportPublicKeyBtn_Click);
             // 
             // ChangePrivateKeyBtn
             // 
@@ -115,6 +117,7 @@
             this.ChangePrivateKeyBtn.TabIndex = 13;
             this.ChangePrivateKeyBtn.Text = "Change private key";
             this.ChangePrivateKeyBtn.UseVisualStyleBackColor = true;
+            this.ChangePrivateKeyBtn.Click += new System.EventHandler(this.ChangePrivateKeyBtn_Click);
             // 
             // VerifySignatureBtn
             // 
@@ -124,6 +127,7 @@
             this.VerifySignatureBtn.TabIndex = 12;
             this.VerifySignatureBtn.Text = "Verify signature";
             this.VerifySignatureBtn.UseVisualStyleBackColor = true;
+            this.VerifySignatureBtn.Click += new System.EventHandler(this.VerifySignatureBtn_Click);
             // 
             // CalculateSignatureBtn
             // 
@@ -133,6 +137,7 @@
             this.CalculateSignatureBtn.TabIndex = 11;
             this.CalculateSignatureBtn.Text = "Calculate signature";
             this.CalculateSignatureBtn.UseVisualStyleBackColor = true;
+            this.CalculateSignatureBtn.Click += new System.EventHandler(this.CalculateSignatureBtn_Click);
             // 
             // Form1
             // 
