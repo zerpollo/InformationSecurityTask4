@@ -22,7 +22,17 @@ namespace InformationSecurityTask4
 
         private void VerifySignatureBtn_Click(object sender, EventArgs e)
         {
-
+            string input = VerifyInputTextBox.Text;
+            string signature = SignatureTextBox.Text;
+            bool isVerified = rsaDigitalSignature.VerifyDigitalSignature(input, signature);
+            if (isVerified)
+            {
+                MessageBox.Show("Digital signature is confirmed.");
+            }
+            else
+            {
+                MessageBox.Show("Digital signature is not confirmed.");
+            }
         }
 
         private void ChangePrivateKeyBtn_Click(object sender, EventArgs e)
