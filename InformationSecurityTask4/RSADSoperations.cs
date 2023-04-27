@@ -36,8 +36,9 @@ namespace InformationSecurityTask4
             return isVerified;
         }
 
-        public void ChangePrivateKey(string privateKeyXml)
+        public void ChangePrivateKey(string filePath)
         {
+            string privateKeyXml = File.ReadAllText(filePath);
             rsa.FromXmlString(privateKeyXml);
         }
 

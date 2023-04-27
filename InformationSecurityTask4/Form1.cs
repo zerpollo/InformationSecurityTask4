@@ -37,8 +37,8 @@ namespace InformationSecurityTask4
 
         private void ChangePrivateKeyBtn_Click(object sender, EventArgs e)
         {
-            string privateKeyXml = "";
-            rsaDigitalSignature.ChangePrivateKey(privateKeyXml);
+            string filepath = "exportprivatekey.xml";
+            rsaDigitalSignature.ChangePrivateKey(filepath);
             MessageBox.Show("Private key has been changed.");
         }
 
